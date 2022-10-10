@@ -125,4 +125,11 @@ void func3(void)
      
          
 }        
+void func4(void)
+{ 
+     printf("\n\n Edit/Modify the Current Song\n\n");    
+}    
+    
+void delete_song(void)
+{
 
