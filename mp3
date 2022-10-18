@@ -6,8 +6,7 @@ FILE * pFile;
 #define ARRAYSIZE 100
 #define SONGNAME 25
 #define SONGARTIST 25
-#define SONGLENGTH 25
-#define TRACK_NUMBER
+g#define TRACK_NUMBER
 
 void func1(void);
 void func2(void);
@@ -19,7 +18,7 @@ void func6(void);
 typedef struct Mp3rec
 {
         char name[SONGNAME];
-        char artist[SONGARTIST];
+        char artist[];
         char length[SONGLENGTH];
         char tname[TRACK_NUMBER];
 };
@@ -34,19 +33,7 @@ int main (void)
     //fp= fopen("mp3_list.txt", "r" "W" "a"); either to add or read a text file.
     do
     {
-      printf ("********************************************\n");
-      printf ("************************************\n");
-      printf ("*********** MP3 Player **********\n");
-      printf ("********************************************");
-      printf("\n1: Play File");   
-      printf("\n2: Show Library");
-      printf("\n3: Add Record");
-      printf("\n4: Edit/Modify ");
-      printf("\n5: Delete Record");
-      printf("\n6: Quit");
       
-      printf("\n\nEnter Choice From 1-6: ");
-      scanf("&#37;d", &menuchoice);
 
       switch (menuchoice)
       {
