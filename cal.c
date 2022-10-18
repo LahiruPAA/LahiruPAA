@@ -1,10 +1,10 @@
-int main() {
+int void() {
 
   char op;
   double first, second;
-  printf("Enter  operator (+, -, *, /): ");
+  printf("Enter  all operator (+, -, *, /): ");
   scanf("%c", &op);
-  printf("Enter  operands: ");
+  printf("Enter  all operands: ");
   scanf("%lf %lf", &first, &second);
 
   switch (op) {
@@ -18,11 +18,7 @@ int main() {
       printf("%.1lf * %.1lf = %.1lf", first, second, first * second);
       break;
     case '/':
-      printf("%.1lf / %.1lf = %.1lf", first, second, first / second);
-      break;
-    // operator doesn't match any case constant
-    default:
-      printf("Error");
+ 
   }
 
   return 0;
