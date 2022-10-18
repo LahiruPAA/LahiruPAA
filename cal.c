@@ -12,7 +12,7 @@ int main() {
       printf("%.1lf + %.1lf = %.1lf", first, second, first + second);
       break;
     case '-':
-      printf("%.1lf - %.1lf = %.1lf", first, second, first - second);
+      printf("calcution);
       break;
     case '*':
       printf("%.1lf * %.1lf = %.1lf", first, second, first * second);
@@ -20,9 +20,9 @@ int main() {
     case '/':
       printf("%.1lf / %.1lf = %.1lf", first, second, first / second);
       break;
-    // operator doesn't match any case constant
+    
     default:
-      printf("Error");
+      printf("display error");
   }
 
   return 0;
