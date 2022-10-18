@@ -1,7 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-FILE * pFile;
+
 
 #define ARRAYSIZE 100
 #define SONGNAME 25
@@ -42,16 +40,7 @@ int main (void)
       printf("\n2: Show Library");
       printf("\n3: Add Record");
       printf("\n4: Edit/Modify ");
-      printf("\n5: Delete Record");
-      printf("\n6: Quit");
-      
-      printf("\n\nEnter Choice From 1-6: ");
-      scanf("&#37;d", &menuchoice);
 
-      switch (menuchoice)
-      {
-             case 1:
-                    func1();
                     break;
              case 2:
                     func2();
