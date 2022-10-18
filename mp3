@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 #include <string.h>
 FILE * pFile;
 
@@ -13,14 +13,14 @@ void func1(void);
 void func2(void);
 void func3(void);
 void func4(void);
-void delete_song(void);
+void delete_video(void);
 void func6(void);
 
 typedef struct Mp3rec
 {
-        char name[SONGNAME];
-        char artist[SONGARTIST];
-        char length[SONGLENGTH];
+        char name[VIDEONAME];
+        char artist[VIDEOARTIST];
+        char length[VIDEOLENGTH];
         char tname[TRACK_NUMBER];
 };
 
@@ -31,7 +31,7 @@ int main (void)
     
     
     int menuchoice=0;
-    //fp= fopen("mp3_list.txt", "r" "W" "a"); either to add or read a text file.
+    //fp= fopen("mp4_list.txt", "r" "W" "a"); either to add or read a text file.
     do
     {
       printf ("********************************************\n");
@@ -79,7 +79,7 @@ int main (void)
 
 void func1(void)
 {
-     printf("\n\n Play File\n\n");
+     printf("\n\n Play video\n\n");
      printf ("********************************************\n");
      printf ("************************************\n");
      printf ("*********** **********\n");
@@ -87,9 +87,9 @@ void func1(void)
      {
     char commandarray[ARRAYSIZE];
     
-    char mp3filename[ARRAYSIZE] ="C:\\mplayer\\Robin S - Show me Love.mp3";
+    char mp4filename[ARRAYSIZE] ="C:\\mplayer\\Robin S - Show me Love.mp4";
     
-    sprintf(commandarray, "C:\\mplayer\\mplayer.exe \"%s\"", mp3filename);
+    sprintf(commandarray, "C:\\mplayer\\mplayer.exe \"%s\"", mp4filename);
     
     printf("\nAttempting to Run Command \"%s\"...\n\n", commandarray);
     
@@ -97,7 +97,7 @@ void func1(void)
     
     int menuchoice=0;
     switch (menuchoice)
-    printf("\n1: Back To Menu");
+    printf("\n1: Back To Main Menu");
     printf("\n5: Quit");
    
     printf("\nDone.\n\n");
@@ -119,7 +119,7 @@ void func3(void)
 {
     
      printf("\n\n Add Record/Song\n\n");
-     fopen("ListofSongs.txt","r+");
+     fopen("ListofVideo.txt","r+");
                        
      printf("\n\n Add Record\n\n");
      
