@@ -4,6 +4,8 @@ int main() {
   double first, second;
   printf("Enter  operator (+, -, *, /): ");
   scanf("%c", &op);
+    printf("Enter new  operator (+, -, *, /): ");
+  scanf("%c", &op);
   printf("Enter  operands: ");
   scanf("%lf %lf", &first, &second);
 
@@ -12,7 +14,7 @@ int main() {
       printf("%.1lf + %.1lf = %.1lf", first, second, first + second);
       break;
     case '-':
-      printf("calcution);
+      printf("calcutions);
       break;
     case '*':
       printf("%.1lf * %.1lf = %.1lf", first, second, first * second);
