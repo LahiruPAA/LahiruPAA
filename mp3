@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
+
 FILE * pFile;
 
-#define ARRAYSIZE 100
-#define SONGNAME 25
-#define SONGARTIST 25
-#define SONGLENGTH 25
+#define ARRAYSIZE 500
+#define SONGNAME 250
+#define SONGARTIST 250
+#define SONGLENGTH 250
 #define TRACK_NUMBER
 
 void func1(void);
