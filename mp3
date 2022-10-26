@@ -7,6 +7,8 @@ FILE * pFile;
 #define SONGNAME 25
 #define SONGARTIST 25
 #define SONGLENGTH 25
+#define SONGARTIST 250
+#define SONGLENGTH 250
 #define TRACK_NUMBER
 
 void func1(void);
@@ -44,7 +46,12 @@ int main (void)
       printf("\n4: Edit/Modify ");
       printf("\n5: Delete Record");
       printf("\n6: Quit");
-      
+            printf("\n6: Quit");
+            
+            
+            
+            
+            
       printf("\n\nEnter Choice From 1-6: ");
       scanf("&#37;d", &menuchoice);
 
