@@ -67,9 +67,12 @@ int main (void)
                     break;              
                                         
              case 6:  
+                    break; 
+                        case 5:delete_song();
                     break;     
                     
              default:
+                     printf("\nInvalid Choice: 1-4 Only Please");
                      printf("\nInvalid Choice: 1-4 Only Please");
                      }
                      
