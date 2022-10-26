@@ -2,9 +2,9 @@ int main() {
 
   char op;
   double first, second;
-  printf("Enter  operator (+, -, *, /): ");
+  printf("Enter first  operator (+, -, *, /): ");
   scanf("%c", &op);
-  printf("Enter  operands: ");
+  printf("Enter  second operands: ");
   scanf("%lf %lf", &first, &second);
 
   switch (op) {
@@ -22,7 +22,7 @@ int main() {
       break;
     
     default:
-      printf("display error");
+      printf("display error msg ");
   }
 
   return 0;
