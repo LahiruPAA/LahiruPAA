@@ -3,10 +3,10 @@
 #include <string.h>
 FILE * pFile;
 
-#define ARRAYSIZE 100
-#define SONGNAME 25
-#define SONGARTIST 25
-#define SONGLENGTH 25
+#define ARRAYSIZE 50
+#define SONGNAME 50
+#define SONGARTIST 50
+#define SONGLENGTH 50
 #define TRACK_NUMBER
 
 void func1(void);
@@ -36,7 +36,7 @@ int main (void)
     {
       printf ("********************************************\n");
       printf ("************************************\n");
-      printf ("*********** MP3 Player **********\n");
+      printf ("*********** MP3 Music Player **********\n");
       printf ("********************************************");
       printf("\n1: Play File");   
       printf("\n2: Show Library");
