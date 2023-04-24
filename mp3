@@ -30,7 +30,7 @@ int main (void)
     
     
     
-    int menuchoice=0;
+      int menuchoice=0;
     //fp= fopen("mp3_list.txt", "r" "W" "a"); either to add or read a text file.
     do
     {
@@ -124,5 +124,4 @@ void func3(void)
      printf("\n\n Add Record\n\n");
      
          
-}        
-
+}  
